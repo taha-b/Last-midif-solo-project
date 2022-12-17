@@ -1,0 +1,49 @@
+body {
+	background: #000000;
+	display: flex ;
+	justify-content: center;
+	justify-items: center;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#clock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+ 	color: #fff;
+	font-size: 80px;
+	display: flex; 
+	gap : 20px ;
+	transform: translate(-50%,-65%);
+}
+
+#clock.twopoints{
+	position: absolute;
+	top: 49%;
+}
+
+#container{
+	position: absolute;
+	left: 43%;
+	top: 65%;
+}
+
+#firstButton{
+	width : 200px;
+	padding: 20px;
+	font-size: 35px;
+	border-radius: 100px;
+	transition: 1.5s;
+	color: black;
+	font-weight: 200;
+	text-align: center;
+	border: 5px solid #CB0DBF;
+}
+
+#firstButton:hover {
+	box-shadow: 0 5px 50px 0 #CB0DBF inset, 0 5px 50px 0 #CB0DBF,
+				0 5px 50px 0 #CB0DBF inset, 0 5px 50px 0 #CB0DBF;
+	text-shadow: 0 0 5px #CB0DBF;
+}
